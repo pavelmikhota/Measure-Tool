@@ -1,0 +1,10 @@
+D:\Mesure\Mesure\bin\Debug\Mesure.exe
+D:\Mesure\Mesure\bin\Debug\Mesure.pdb
+D:\Mesure\Mesure\obj\Debug\Mesure.csprojAssemblyReference.cache
+D:\Mesure\Mesure\obj\Debug\Mesure.Form2.resources
+D:\Mesure\Mesure\obj\Debug\Mesure.Properties.Resources.resources
+D:\Mesure\Mesure\obj\Debug\Mesure.csproj.GenerateResource.cache
+D:\Mesure\Mesure\obj\Debug\Mesure.csproj.CoreCompileInputs.cache
+D:\Mesure\Mesure\obj\Debug\Mesure.exe
+D:\Mesure\Mesure\obj\Debug\Mesure.pdb
+D:\Mesure\Mesure\obj\Debug\Mesure.Form1.resources
