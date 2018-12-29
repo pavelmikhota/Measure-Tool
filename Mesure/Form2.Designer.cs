@@ -48,17 +48,17 @@
             this.StopBits_1 = new System.Windows.Forms.RadioButton();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // baudRate
@@ -294,23 +294,22 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Таймаут";
             // 
-            // label3
+            // numericUpDown2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 70);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Запись";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 26);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Чтение";
+            this.numericUpDown2.Location = new System.Drawing.Point(80, 68);
+            this.numericUpDown2.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(100, 20);
+            this.numericUpDown2.TabIndex = 5;
+            this.numericUpDown2.Value = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             // 
             // numericUpDown1
             // 
@@ -329,22 +328,23 @@
             0,
             0});
             // 
-            // numericUpDown2
+            // label3
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(80, 68);
-            this.numericUpDown2.Maximum = new decimal(new int[] {
-            100000,
-            0,
-            0,
-            0});
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(100, 20);
-            this.numericUpDown2.TabIndex = 5;
-            this.numericUpDown2.Value = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(20, 70);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(44, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Запись";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(20, 26);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Чтение";
             // 
             // Form2
             // 
@@ -358,7 +358,7 @@
             this.Controls.Add(this.submit_settings);
             this.Controls.Add(this.groupBox5);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Конфигурация Порта";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -369,8 +369,8 @@
             this.groupBox5.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
 
         }
